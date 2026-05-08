@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6A4DCE3E2FAE381A0039CCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A4DCE282FAE38190039CCA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4DCE2F2FAE38190039CCA2;
+			remoteInfo = Lullab;
+		};
+		6A4DCE482FAE381A0039CCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A4DCE282FAE38190039CCA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4DCE2F2FAE38190039CCA2;
+			remoteInfo = Lullab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0290410BA5D41B64E8A54BDA /* ContactSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactSupportView.swift; path = Views/Settings/ContactSupportView.swift; sourceTree = SOURCE_ROOT; };
+		06FB44DA8B05A552F9B8CBD4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = Views/Onboarding/OnboardingView.swift; sourceTree = SOURCE_ROOT; };
+		0BB34CBFA150CBFD18242447 /* TimelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimelineViewModel.swift; path = ViewModels/TimelineViewModel.swift; sourceTree = SOURCE_ROOT; };
+		0CFA43048BE8AD5DA9A1D9CA /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Typography.swift; path = DesignSystem/Typography.swift; sourceTree = SOURCE_ROOT; };
+		0E534B2F9023657AE7BCC3BC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = DesignSystem/Colors.swift; sourceTree = SOURCE_ROOT; };
+		15F64A63A72E1D1D8686A832 /* GrowthDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GrowthDetailView.swift; path = Views/Growth/GrowthDetailView.swift; sourceTree = SOURCE_ROOT; };
+		160742B8B98913B8BD68F2D8 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersistenceController.swift; path = Services/PersistenceController.swift; sourceTree = SOURCE_ROOT; };
+		1863495F8F115A8DB294A9FB /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SubscriptionManager.swift; path = Services/SubscriptionManager.swift; sourceTree = SOURCE_ROOT; };
+		18A24D31B4D9766007C89552 /* GrowthDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GrowthDetailView.swift; path = Views/Growth/GrowthDetailView.swift; sourceTree = SOURCE_ROOT; };
+		1AE0400E8B8B3F8C35768080 /* LiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LiveActivityManager.swift; path = Services/LiveActivityManager.swift; sourceTree = SOURCE_ROOT; };
+		1F6844638214A0ABF17572B7 /* FeedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedDetailView.swift; path = Views/Feed/FeedDetailView.swift; sourceTree = SOURCE_ROOT; };
+		27074E78BA83953D490DBDA7 /* CDBaby+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CDBaby+CoreData.swift"; path = "Models/CDBaby+CoreData.swift"; sourceTree = SOURCE_ROOT; };
+		2CCD43618F8E23A3F5E90DAA /* CDEvent+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CDEvent+CoreData.swift"; path = "Models/CDEvent+CoreData.swift"; sourceTree = SOURCE_ROOT; };
+		2CDD4AF3972DC779360DC11E /* LullabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LullabApp.swift; path = LullabApp.swift; sourceTree = SOURCE_ROOT; };
+		315B450589654C425754CDEF /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Components.swift; path = DesignSystem/Components.swift; sourceTree = SOURCE_ROOT; };
+		329F473DB976B7697CCF67D2 /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedbackService.swift; path = Services/FeedbackService.swift; sourceTree = SOURCE_ROOT; };
+		379E46EA968460D3F4923AB2 /* SleepDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SleepDetailView.swift; path = Views/Sleep/SleepDetailView.swift; sourceTree = SOURCE_ROOT; };
+		397D4CC39587A6730E4AFA58 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimelineView.swift; path = Views/Timeline/TimelineView.swift; sourceTree = SOURCE_ROOT; };
+		3E7947A290C15FB76FCF81E3 /* ContactSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactSupportView.swift; path = Views/Settings/ContactSupportView.swift; sourceTree = SOURCE_ROOT; };
+		50134505A79B9E09A1046243 /* EventModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventModels.swift; path = Models/EventModels.swift; sourceTree = SOURCE_ROOT; };
+		56E74F1CA14B88832C9F06AB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = DesignSystem/Colors.swift; sourceTree = SOURCE_ROOT; };
+		5D2C42639C876F2437B5487A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = Views/Onboarding/OnboardingView.swift; sourceTree = SOURCE_ROOT; };
+		62434A8DAAF1B4048B5B8E7A /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewModel.swift; path = ViewModels/FeedViewModel.swift; sourceTree = SOURCE_ROOT; };
+		6A4DCE302FAE38190039CCA2 /* Lullab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lullab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4DCE3D2FAE381A0039CCA2 /* LullabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LullabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4DCE472FAE381A0039CCA2 /* LullabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LullabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5F4B7E86C7E208B43BD136 /* DiaperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaperViewModel.swift; path = ViewModels/DiaperViewModel.swift; sourceTree = SOURCE_ROOT; };
+		73074176B99AA6E0AA061259 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Typography.swift; path = DesignSystem/Typography.swift; sourceTree = SOURCE_ROOT; };
+		76054553B8ABC997E18512A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
+		7C1645C08631A0568CD0E30B /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedbackService.swift; path = Services/FeedbackService.swift; sourceTree = SOURCE_ROOT; };
+		7C7E4C9DAE329332FB751CFA /* DiaperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaperViewModel.swift; path = ViewModels/DiaperViewModel.swift; sourceTree = SOURCE_ROOT; };
+		7E624472AE2F7081986653D4 /* LiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LiveActivityManager.swift; path = Services/LiveActivityManager.swift; sourceTree = SOURCE_ROOT; };
+		849E4DEE8B7D1521C44AC21E /* PremiumPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PremiumPaywallView.swift; path = Views/Settings/PremiumPaywallView.swift; sourceTree = SOURCE_ROOT; };
+		85894A5AB7A3EFF4472696C4 /* DiaperDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaperDetailView.swift; path = Views/Diaper/DiaperDetailView.swift; sourceTree = SOURCE_ROOT; };
+		8C634D8D9021FA11271B71E1 /* CDBaby+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CDBaby+CoreData.swift"; path = "Models/CDBaby+CoreData.swift"; sourceTree = SOURCE_ROOT; };
+		8CF74FBE9337AAA91DDD00B3 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersistenceController.swift; path = Services/PersistenceController.swift; sourceTree = SOURCE_ROOT; };
+		905D48059497E129EE653620 /* PremiumPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PremiumPaywallView.swift; path = Views/Settings/PremiumPaywallView.swift; sourceTree = SOURCE_ROOT; };
+		94B348C7A4D5D2C4E4A633A8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = ViewModels/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
+		95E148318B29949A545CF827 /* FeedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedDetailView.swift; path = Views/Feed/FeedDetailView.swift; sourceTree = SOURCE_ROOT; };
+		970E4903B03CBD389C428D62 /* SleepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SleepViewModel.swift; path = ViewModels/SleepViewModel.swift; sourceTree = SOURCE_ROOT; };
+		9788430E9A150331CFD15541 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Views/Home/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		979F48608026EF5923686227 /* EventModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventModels.swift; path = Models/EventModels.swift; sourceTree = SOURCE_ROOT; };
+		A3AB40F9B31641DFF05E53A0 /* DiaperDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaperDetailView.swift; path = Views/Diaper/DiaperDetailView.swift; sourceTree = SOURCE_ROOT; };
+		A41646B49C21AA3123E84BFA /* Date+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Date+Formatting.swift"; path = "Extensions/Date+Formatting.swift"; sourceTree = SOURCE_ROOT; };
+		A608443496485373FE60BDEB /* CDEvent+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CDEvent+CoreData.swift"; path = "Models/CDEvent+CoreData.swift"; sourceTree = SOURCE_ROOT; };
+		AD4647C19415548A77D6CD7D /* GrowthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GrowthViewModel.swift; path = ViewModels/GrowthViewModel.swift; sourceTree = SOURCE_ROOT; };
+		B2DE47A09BAEF2626D71FD64 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = ViewModels/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
+		B39D4E98BE920E4990EFE20E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
+		BBF241A79B0956CE28805432 /* contents */ = {isa = PBXFileReference; lastKnownFileType = text; name = contents; path = Lullab.xcdatamodeld/Lullab.xcdatamodel/contents; sourceTree = SOURCE_ROOT; };
+		C2D74679903C2858F08CEB5A /* LullabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LullabApp.swift; path = LullabApp.swift; sourceTree = SOURCE_ROOT; };
+		C97A4D3A9064858F824EFE1E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Views/Home/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		DC5C4039B51F101C4723894B /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewModel.swift; path = ViewModels/FeedViewModel.swift; sourceTree = SOURCE_ROOT; };
+		DC6442989F6958C92C25926D /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimelineView.swift; path = Views/Timeline/TimelineView.swift; sourceTree = SOURCE_ROOT; };
+		DFE34518A11E1F5A456A57C7 /* GrowthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GrowthViewModel.swift; path = ViewModels/GrowthViewModel.swift; sourceTree = SOURCE_ROOT; };
+		E7EE4D2FBCE5E54619B07F2B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/Settings/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		EE5B459285A9D5D7305CA1B7 /* contents */ = {isa = PBXFileReference; lastKnownFileType = text; name = contents; path = Lullab.xcdatamodeld/Lullab.xcdatamodel/contents; sourceTree = SOURCE_ROOT; };
+		EFB447D59E3E92BCD50BFECB /* SleepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SleepViewModel.swift; path = ViewModels/SleepViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F06F43A38199588F7CDD2E32 /* Date+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Date+Formatting.swift"; path = "Extensions/Date+Formatting.swift"; sourceTree = SOURCE_ROOT; };
+		F1BD4651AFF68C55D12A8874 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Components.swift; path = DesignSystem/Components.swift; sourceTree = SOURCE_ROOT; };
+		F919493D9C3C54BA720A6973 /* TimelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimelineViewModel.swift; path = ViewModels/TimelineViewModel.swift; sourceTree = SOURCE_ROOT; };
+		FC114F5FA21B8AAAC0EF1A03 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/Settings/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		FD07496399FAB9ABB32A870B /* SleepDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SleepDetailView.swift; path = Views/Sleep/SleepDetailView.swift; sourceTree = SOURCE_ROOT; };
+		FF074839871F01B81F32361D /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SubscriptionManager.swift; path = Services/SubscriptionManager.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6A4DCE322FAE38190039CCA2 /* Lullab */ = {isa = PBXFileSystemSynchronizedRootGroup; path = Lullab; sourceTree = "<group>"; };
+		6A4DCE402FAE381A0039CCA2 /* LullabTests */ = {isa = PBXFileSystemSynchronizedRootGroup; path = LullabTests; sourceTree = "<group>"; };
+		6A4DCE4A2FAE381A0039CCA2 /* LullabUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; path = LullabUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A4DCE2D2FAE38190039CCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4DCE3A2FAE381A0039CCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4DCE442FAE381A0039CCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A4DCE272FAE38190039CCA2 = {
+			isa = PBXGroup;
+			children = (
+				6A4DCE322FAE38190039CCA2 /* Lullab */,
+				6A4DCE402FAE381A0039CCA2 /* LullabTests */,
+				6A4DCE4A2FAE381A0039CCA2 /* LullabUITests */,
+				6A4DCE312FAE38190039CCA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A4DCE312FAE38190039CCA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A4DCE302FAE38190039CCA2 /* Lullab.app */,
+				6A4DCE3D2FAE381A0039CCA2 /* LullabTests.xctest */,
+				6A4DCE472FAE381A0039CCA2 /* LullabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A4DCE2F2FAE38190039CCA2 /* Lullab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4DCE512FAE381A0039CCA2 /* Build configuration list for PBXNativeTarget "Lullab" */;
+			buildPhases = (
+				6A4DCE2C2FAE38190039CCA2 /* Sources */,
+				6A4DCE2D2FAE38190039CCA2 /* Frameworks */,
+				6A4DCE2E2FAE38190039CCA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6A4DCE322FAE38190039CCA2 /* Lullab */,
+			);
+			name = Lullab;
+			packageProductDependencies = (
+			);
+			productName = Lullab;
+			productReference = 6A4DCE302FAE38190039CCA2 /* Lullab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A4DCE3C2FAE381A0039CCA2 /* LullabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4DCE542FAE381A0039CCA2 /* Build configuration list for PBXNativeTarget "LullabTests" */;
+			buildPhases = (
+				6A4DCE392FAE381A0039CCA2 /* Sources */,
+				6A4DCE3A2FAE381A0039CCA2 /* Frameworks */,
+				6A4DCE3B2FAE381A0039CCA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A4DCE3F2FAE381A0039CCA2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A4DCE402FAE381A0039CCA2 /* LullabTests */,
+			);
+			name = LullabTests;
+			packageProductDependencies = (
+			);
+			productName = LullabTests;
+			productReference = 6A4DCE3D2FAE381A0039CCA2 /* LullabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A4DCE462FAE381A0039CCA2 /* LullabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4DCE572FAE381A0039CCA2 /* Build configuration list for PBXNativeTarget "LullabUITests" */;
+			buildPhases = (
+				6A4DCE432FAE381A0039CCA2 /* Sources */,
+				6A4DCE442FAE381A0039CCA2 /* Frameworks */,
+				6A4DCE452FAE381A0039CCA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A4DCE492FAE381A0039CCA2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A4DCE4A2FAE381A0039CCA2 /* LullabUITests */,
+			);
+			name = LullabUITests;
+			packageProductDependencies = (
+			);
+			productName = LullabUITests;
+			productReference = 6A4DCE472FAE381A0039CCA2 /* LullabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A4DCE282FAE38190039CCA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					6A4DCE2F2FAE38190039CCA2 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					6A4DCE3C2FAE381A0039CCA2 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 6A4DCE2F2FAE38190039CCA2;
+					};
+					6A4DCE462FAE381A0039CCA2 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 6A4DCE2F2FAE38190039CCA2;
+					};
+				};
+			};
+			buildConfigurationList = 6A4DCE2B2FAE38190039CCA2 /* Build configuration list for PBXProject "Lullab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A4DCE272FAE38190039CCA2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6A4DCE312FAE38190039CCA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A4DCE2F2FAE38190039CCA2 /* Lullab */,
+				6A4DCE3C2FAE381A0039CCA2 /* LullabTests */,
+				6A4DCE462FAE381A0039CCA2 /* LullabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A4DCE2E2FAE38190039CCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4DCE3B2FAE381A0039CCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4DCE452FAE381A0039CCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A4DCE2C2FAE38190039CCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4DCE392FAE381A0039CCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4DCE432FAE381A0039CCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A4DCE3F2FAE381A0039CCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4DCE2F2FAE38190039CCA2 /* Lullab */;
+			targetProxy = 6A4DCE3E2FAE381A0039CCA2 /* PBXContainerItemProxy */;
+		};
+		6A4DCE492FAE381A0039CCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4DCE2F2FAE38190039CCA2 /* Lullab */;
+			targetProxy = 6A4DCE482FAE381A0039CCA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A4DCE4F2FAE381A0039CCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A4DCE502FAE381A0039CCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A4DCE522FAE381A0039CCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Lullab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A4DCE532FAE381A0039CCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Lullab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A4DCE552FAE381A0039CCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Lullab.LullabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lullab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lullab";
+			};
+			name = Debug;
+		};
+		6A4DCE562FAE381A0039CCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Lullab.LullabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lullab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lullab";
+			};
+			name = Release;
+		};
+		6A4DCE582FAE381A0039CCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Lullab.LullabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lullab;
+			};
+			name = Debug;
+		};
+		6A4DCE592FAE381A0039CCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Lullab.LullabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lullab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A4DCE2B2FAE38190039CCA2 /* Build configuration list for PBXProject "Lullab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4DCE4F2FAE381A0039CCA2 /* Debug */,
+				6A4DCE502FAE381A0039CCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4DCE512FAE381A0039CCA2 /* Build configuration list for PBXNativeTarget "Lullab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4DCE522FAE381A0039CCA2 /* Debug */,
+				6A4DCE532FAE381A0039CCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4DCE542FAE381A0039CCA2 /* Build configuration list for PBXNativeTarget "LullabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4DCE552FAE381A0039CCA2 /* Debug */,
+				6A4DCE562FAE381A0039CCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4DCE572FAE381A0039CCA2 /* Build configuration list for PBXNativeTarget "LullabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4DCE582FAE381A0039CCA2 /* Debug */,
+				6A4DCE592FAE381A0039CCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A4DCE282FAE38190039CCA2 /* Project object */;
+}
