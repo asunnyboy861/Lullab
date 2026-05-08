@@ -15,10 +15,10 @@
 
 | Page | URL | Status |
 |------|-----|--------|
-| Landing Page | https://asunnyboy861.github.io/Lullab/ | Pending |
-| Support | https://asunnyboy861.github.io/Lullab/support.html | Pending |
-| Privacy Policy | https://asunnyboy861.github.io/Lullab/privacy.html | Pending |
-| Terms of Use | https://asunnyboy861.github.io/Lullab/terms.html | Pending |
+| Landing Page | https://asunnyboy861.github.io/Lullab/ | Active |
+| Support | https://asunnyboy861.github.io/Lullab/support.html | Active |
+| Privacy Policy | https://asunnyboy861.github.io/Lullab/privacy.html | Active |
+| Terms of Use | https://asunnyboy861.github.io/Lullab/terms.html | Active |
 
 ## Repository Structure
 
