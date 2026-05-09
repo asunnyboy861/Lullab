@@ -27,30 +27,61 @@ Lullab/
 ├── Lullab/                        # iOS App Source Code
 │   ├── Lullab.xcodeproj/          # Xcode Project
 │   ├── Lullab/                    # Swift Source Files
+│   │   ├── LullabApp.swift        # App Entry Point
+│   │   ├── DesignSystem/
+│   │   │   ├── Colors.swift
+│   │   │   ├── Typography.swift
+│   │   │   └── Components.swift
+│   │   ├── Models/
+│   │   │   ├── EventModels.swift
+│   │   │   ├── CDEvent+CoreData.swift
+│   │   │   └── CDBaby+CoreData.swift
+│   │   ├── Services/
+│   │   │   ├── PersistenceController.swift
+│   │   │   ├── SubscriptionManager.swift
+│   │   │   ├── LiveActivityManager.swift
+│   │   │   └── FeedbackService.swift
+│   │   ├── ViewModels/
+│   │   │   ├── HomeViewModel.swift
+│   │   │   ├── FeedViewModel.swift
+│   │   │   ├── SleepViewModel.swift
+│   │   │   ├── DiaperViewModel.swift
+│   │   │   ├── GrowthViewModel.swift
+│   │   │   └── TimelineViewModel.swift
 │   │   ├── Views/
 │   │   │   ├── Home/
+│   │   │   │   └── HomeView.swift
 │   │   │   ├── Feed/
+│   │   │   │   └── FeedDetailView.swift
 │   │   │   ├── Sleep/
+│   │   │   │   └── SleepDetailView.swift
 │   │   │   ├── Diaper/
+│   │   │   │   └── DiaperDetailView.swift
 │   │   │   ├── Growth/
+│   │   │   │   └── GrowthDetailView.swift
 │   │   │   ├── Timeline/
+│   │   │   │   └── TimelineView.swift
 │   │   │   ├── Settings/
+│   │   │   │   ├── SettingsView.swift
+│   │   │   │   ├── PremiumPaywallView.swift
+│   │   │   │   └── ContactSupportView.swift
 │   │   │   └── Onboarding/
-│   │   ├── ViewModels/
-│   │   ├── Models/
-│   │   ├── Services/
-│   │   ├── DesignSystem/
-│   │   └── Extensions/
+│   │   │       └── OnboardingView.swift
+│   │   ├── Extensions/
+│   │   │   └── Date+Formatting.swift
+│   │   ├── Lullab.xcdatamodeld/   # Core Data Model
+│   │   └── Assets.xcassets/       # App Icons & Colors
 │   ├── LullabTests/
 │   └── LullabUITests/
 ├── docs/                          # Policy Pages (GitHub Pages source)
-│   ├── index.html
+│   ├── landing.html
 │   ├── support.html
 │   ├── privacy.html
 │   └── terms.html
 ├── .github/workflows/
 │   └── deploy.yml
 ├── us.md
+├── keytext.md
 ├── capabilities.md
 ├── icon.md
 ├── price.md
